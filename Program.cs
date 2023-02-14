@@ -12,9 +12,10 @@ Console.WriteLine($"[{String.Join(", ", newsigns)}]");
 //     }
 //     System.Console.WriteLine();
 // }
-string[] array (string[] signs)
+int size = signs.Length;
+string[] array (string[] signs, int size)
 {
-    string[] array = new string[signs.Length];
+  string[] array = new string[size];
   for (int i = 0; i < signs.Length; i++)
   {
     if (signs[i].Length <= 3) array[i] = signs[i];
