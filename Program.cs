@@ -7,6 +7,7 @@
 //     if (signs[x].Length <= 3) size++;
 // }
 // Console.WriteLine($"[{String.Join(", ", Arraysigns(size))}]");
+// Method---------------------------------
 // string[] Arraysigns(int size)
 // {
 //     string[] array = new string[size];
