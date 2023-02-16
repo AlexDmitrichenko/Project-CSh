@@ -1,4 +1,6 @@
-﻿string[] signs = { "hello", "2", "world", ":-)" };
+﻿// string[] signs = {"hello", "2", "world", ":-)"};
+// string[] signs =  {"1234", "1567", "-2", "computer science"};
+string[] signs =  {"Russia", "Russia", "Kazan"};
 int size = 0;
 for (int x = 0; x < signs.Length; x++)
 {
